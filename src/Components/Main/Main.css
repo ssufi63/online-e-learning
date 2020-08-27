@@ -1,0 +1,12 @@
+
+.main{
+    display: flex;
+}
+.course{
+    width:75%;
+}
+.purchase{
+    position: fixed;
+    right: 50px;
+    align-items: right;
+}

@@ -14,6 +14,8 @@ function App() {
       <br/>
       <br/>
       <br/>
+      <h2>Our Courses</h2>
+      <br/>
       <Main></Main>
     </div>
   );

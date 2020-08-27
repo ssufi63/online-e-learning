@@ -4,7 +4,8 @@ import './Course.css';
 const Course = (props) => {
     const { title, instructor, duration, price, image } = props.course;
     return (
-        <div className="main-area">
+        <div className="container">
+            <div className="main-area row">
             <div className="image"> 
                 <img src={image} alt="" />
             </div>
@@ -15,7 +16,8 @@ const Course = (props) => {
                 <h4>Price : {price} bdt </h4>
             </div>
             <div>
-            <button  type="button" class="btn btn-info" onClick = {() => props.handlePurchase(props.course)}>Enroll Now</button>
+            <button  type="button" className="btn btn-info" onClick = {() => props.handlePurchase(props.course)}>Enroll Now</button>
+            </div>
             </div>
 
         </div>

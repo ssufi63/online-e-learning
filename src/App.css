@@ -15,5 +15,9 @@ p{
 body{
   background-color: #a5b1c2;
 }
-
+h2{
+  margin-left: 50px;
+  color: #192a56;
+  font-weight: 700;
+}
 
